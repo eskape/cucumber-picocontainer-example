@@ -1,11 +1,18 @@
 package nl.eskape;
 
+import org.picocontainer.annotations.Inject;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import nl.eskape.utils.SharedDriver;
 
 public class StepDefinitions {
 
+
+    @Inject
+    private SharedDriver driver;
+    
     @Given("I am on the Google page")
     public void i_am_on_the_Google_page() {
         // Write code here that turns the phrase above into concrete actions
