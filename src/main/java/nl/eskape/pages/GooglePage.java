@@ -1,6 +1,5 @@
 package nl.eskape.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class GooglePage {
@@ -12,6 +11,5 @@ public class GooglePage {
  
     public void goToGoogle(){
         driver.get("https://www.google.nl/");
-        driver.findElement(By.name("q")).click();
     }    
 }
