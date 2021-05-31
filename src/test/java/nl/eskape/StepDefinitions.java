@@ -11,9 +11,8 @@ import nl.eskape.utils.SharedDriver;
 public class StepDefinitions {
 
 
-    @Inject
-    private SharedDriver driver;
-    @Inject GooglePage googlePage;
+    @Inject private SharedDriver driver;
+    @Inject private GooglePage googlePage;
     
     @Given("I am on the Google page")
     public void i_am_on_the_Google_page() {
