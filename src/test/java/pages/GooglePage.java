@@ -7,9 +7,9 @@ public class GooglePage {
 	
 	private WebDriver driver;
 
-	public GooglePage(WebDriverManager driverManager) {		        
+	public GooglePage(WebDriverManager driverManager) {	        
 		driver = driverManager.getDriver();
 		driver.get("https://www.google.nl");
-    }
+	}
 	
 }

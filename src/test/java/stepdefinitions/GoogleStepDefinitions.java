@@ -13,7 +13,7 @@ public class GoogleStepDefinitions {
 	}
 	
 	@Given("I am on the Google page")
-    public void i_am_on_the_Google_page() {
+	public void i_am_on_the_Google_page() {
 		new GooglePage(driverManager);
     }
 	
